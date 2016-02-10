@@ -1,0 +1,13 @@
+- attr_accessor, migrations
+- migrations: add/remove columns/indices
+- migration names => automatic code
+- mistake
+  - rollback first
+  - edit or delete
+  - then migrate
+- big mistake
+  rake db:drop db:create db:migrate
+- index? faster databases
+- db constraints (aka validators)
+  - uniqueness
+  - presence
